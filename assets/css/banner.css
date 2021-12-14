@@ -1,3 +1,137 @@
+/* banner */
+
 .banner-img img {
     max-height: 650px;
+    width: 100%;
 }
+
+.owl-carousel .fas {
+    font-size: 100px;
+}
+
+.box {
+    position: relative;
+}
+
+.box .dots {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    left: 90%;
+    bottom: 300px;
+}
+
+.box .dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.box .main-slider {
+    display: flex;
+    z-index: 1;
+}
+
+
+/* banner */
+
+
+/* Tab */
+
+.tab {
+    overflow: hidden;
+    position: relative;
+    left: 20%;
+    top: 0px;
+}
+
+.bolumler {
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+.tab button {
+    font-size: 20px;
+    background-color: white;
+    color: gray;
+    font-weight: 600;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button.active {
+    color: black;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+}
+
+
+/* Tab */
+
+
+/* Contents */
+
+.card {
+    width: 350px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px;
+    float: left;
+    margin-top: 55px;
+    margin-right: 2%;
+}
+
+.card:hover {
+    background-color: #EDDA3B;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+}
+
+.card img:hover {
+    transition: 0.3s;
+    transform: scale(1.07);
+}
+
+.card-header {
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 17px;
+    /* font-weight: 900px; */
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.bolumler .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* Contents */

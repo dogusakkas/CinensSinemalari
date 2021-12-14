@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 header {
@@ -27,7 +28,6 @@ header {
     margin: 40px;
     text-decoration: none;
     color: white;
-    font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
     font-size: 15px;
 }
@@ -47,7 +47,7 @@ header {
     margin-left: 10px;
 }
 
-.sinemalarbuton i:hover {
+.sinemalarbuton a:hover {
     color: rgb(237, 218, 59) !important;
     transition: 0.3s !important;
 }
@@ -60,7 +60,7 @@ header {
 }
 
 .right .bayrak {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .right {

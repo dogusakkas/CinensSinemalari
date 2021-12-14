@@ -4,17 +4,9 @@ $(document).ready(function() {
         margin: 10,
         responsiveClass: true,
         items: 1,
-        nav: true,
+        nav: false,
         autoplay: true,
-        autoplayTimeout: 2500,
+        autoplayTimeout: 3000,
+        dots: true,
     })
-});
-
-$(function() {
-
-    const doticon = '<i class="fas fa-circle"></i>';
-
-    $('.main-slider').owlCarousel({
-        navText: [doticon]
-    });
 });
