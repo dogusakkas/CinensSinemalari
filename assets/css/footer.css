@@ -1,0 +1,146 @@
+footer {
+    height: 700px;
+    background-color: black;
+}
+
+.footer-area {
+    position: relative;
+    top: 20%;
+    left: 35%;
+}
+
+footer .contact-us {
+    position: relative;
+}
+
+footer .email {
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid grey;
+    float: left;
+    width: 400px;
+    background: #f1f1f1;
+    height: 55px;
+}
+
+footer .gonder {
+    float: left;
+    width: 10%;
+    height: 78px;
+    padding: 10px;
+    background: #EDDA3B;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border-left: none;
+    cursor: pointer;
+}
+
+footer .gonder:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+footer .text {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+footer .text .metin {
+    color: #8F8F8F;
+}
+
+footer .text .metin2 {
+    color: white;
+    margin-top: 8px;
+}
+
+footer .follow-us {
+    position: absolute;
+    color: #8F8F8F;
+    margin-top: 185px;
+    font-size: 18px;
+    margin-left: 300px;
+}
+
+footer .icons {
+    position: absolute;
+    float: left;
+    display: flex;
+    list-style: none;
+    margin-left: 235px;
+    margin-top: 230px;
+}
+
+footer .icons li a {
+    color: #8F8F8F;
+    font-size: 26px;
+    margin-left: 25px;
+}
+
+footer .icons li a:hover {
+    color: white;
+}
+
+footer .menu {
+    position: absolute;
+    margin-top: 290px;
+    display: flex;
+    list-style: none;
+}
+
+footer .menu li a {
+    color: #8F8F8F;
+    margin-left: 22px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .menu li a:hover {
+    color: white;
+}
+
+footer .kvkk {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    margin-top: 350px;
+    margin-left: 150px;
+}
+
+footer .kvkk li a {
+    color: #8F8F8F;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 18px;
+}
+
+footer .kvkk li a:hover {
+    color: white;
+}
+
+footer .copyright {
+    position: absolute;
+    margin-top: 560px;
+    left: 23%;
+    color: #8F8F8F;
+}
+
+footer .text-center {
+    position: absolute;
+    left: 42%;
+    margin-top: 550px;
+}
+
+footer img {
+    height: 35px;
+}
+
+footer .ticket {
+    position: absolute;
+    left: 70%;
+    margin-top: 550px;
+}

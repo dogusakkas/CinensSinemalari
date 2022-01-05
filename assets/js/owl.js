@@ -10,3 +10,13 @@ $(document).ready(function() {
         dots: true,
     })
 });
+
+$(document).ready(function() {
+    $('.main-slider2').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        items: 1,
+        nav: false,
+    })
+});

@@ -30,16 +30,15 @@
     background-color: white;
 }
 
-.box .main-slider {
-    display: flex;
-    z-index: 1;
-}
-
 
 /* banner */
 
 
 /* Tab */
+
+.filmler {
+    display: inline-block;
+}
 
 .tab {
     overflow: hidden;
@@ -89,10 +88,7 @@
     background-color: #EDDA3B;
 }
 
-
-/* Style The Dropdown Button */
-
-.dropbtn {
+.dropbtn1 {
     background-color: white;
     color: black;
     height: 50px;
@@ -102,12 +98,33 @@
     cursor: pointer;
     text-align: start;
     padding: 0px 10px;
+    border-radius: 4px;
+}
+
+.dropbtn2 {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 240px;
+    font-size: 20px;
+    border: 1px solid #ced4da;
+    cursor: pointer;
+    text-align: start;
+    padding: 0px 10px;
+    border-radius: 4px;
 }
 
 .sube i {
     position: relative;
     right: 8%;
     font-size: 25px;
+}
+
+.dil i {
+    position: relative;
+    right: 10%;
+    font-size: 22px;
+    color: gray;
 }
 
 .dropdown1 {
@@ -117,12 +134,26 @@
     left: 21%;
 }
 
-.dropdown-content {
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    top: 21%;
+    left: 22%;
+}
+
+.dropdown1 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
     width: 340px;
     z-index: 1;
+}
+
+.dropdown2 .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 240px;
 }
 
 .dropdown-content a {
@@ -133,12 +164,36 @@
     display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown1 .dropdown-content a:hover {
     background-color: #EDDA3B
+}
+
+.dropdown2 .dropdown-content a:hover {
+    background-color: #1e90ff;
 }
 
 .dropdown1:hover .dropdown-content {
     display: block;
+}
+
+.dropdown2:hover .dropdown-content {
+    display: block;
+}
+
+.filter-bar .buton .filterbtn {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border-radius: 4px;
+    position: relative;
+    left: 50%;
+    bottom: 15px;
+    text-align: center;
+    padding: 11px 100px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 
@@ -158,6 +213,12 @@
     margin-right: 2%;
 }
 
+.card a {
+    text-decoration: none;
+    color: black !important;
+    font-weight: bolder;
+}
+
 .card:hover {
     background-color: #EDDA3B;
     box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
@@ -170,10 +231,8 @@
 
 .card-header {
     margin-top: 10px;
-    color: black;
     text-align: center;
-    font-size: 24px;
-    /* font-weight: 900px; */
+    font-size: 22px;
 }
 
 .card-main {
@@ -188,10 +247,104 @@
 }
 
 .card-footer {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-footer2 {
     margin-top: 15px;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
+}
+
+.card-footer .category {
+    padding: 6px;
+    background-color: #EDDA3B;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+
+.card-footer .sessions {
+    margin-top: 20px;
+}
+
+.card :hover .card-footer {
+    background-color: white;
 }
 
 
 /* Contents */
+
+
+/* Our Campaigns */
+
+.acildik .campaign {
+    margin-top: 40px;
+    position: relative;
+    left: 20%;
+    color: #212529;
+}
+
+.acildik .box2 {
+    margin-top: 50px;
+}
+
+.acildik .main-slider2 {
+    padding: 0px 20px;
+}
+
+.acildik .tumkampanyalar a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 45%;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.instagram .textbtn {
+    float: left;
+}
+
+.instagram {
+    display: block;
+    background-color: aqua;
+}
+
+.instagram .textbtn img {
+    height: 50px;
+    width: 45px;
+}
+
+.instagram .textbtn a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    left: 190%;
+}
+
+.textbtn h1 {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    bottom: 15px;
+}
+
+.maps {
+    display: block;
+    margin-top: 90px;
+}
+
+.maps .cinens {
+    width: 100%;
+}
+
+
+/* Our Campaigns */

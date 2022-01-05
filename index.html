@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
     <title>Cinens</title>
     <link rel="shortcut icon" href="assets/img/titlelogo.png">
@@ -23,8 +24,23 @@
             <div class="left">
                 <ul>
                     <li><a href="index.html">ANA SAYFA</a></li>
-                    <div class="sinemalarbuton">
-                        <li><a href="#">SİNEMALAR<i class="fas fa-caret-down"></i></a></li>
+                    <div class="dropdown1">
+                        <div class="sube">
+                            <button class="dropbtn1">Şubelerimiz</button><i class="fas fa-sort-down"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="#about">Cinens Sinemaları Akhisar</a>
+                            <a href="#base">Cinens Sinemaları Antakya</a>
+                            <a href="#base">Cinens Sinemaları City Center</a>
+                            <a href="#base">Cinens Sinemaları Derince Kipa</a>
+                            <a href="#base">Cinens Sinemaları Manisa</a>
+                            <a href="#base">Cinens Sinemaları Mersin</a>
+                            <a href="#base">Cinens Sinemaları Uşak Festiva</a>
+                            <a href="#base">Cinens Sinemaları Venezia</a>
+                            <a href="#base">Cinens Sinemaları AVM Erdemli</a>
+                            <a href="#base">İstanbul Üsküdar Nevçarşı Cinens</a>
+                            <a href="#base">Cinens Sinemaları Adapazarı Cadde 54</a>
+                        </div>
                     </div>
                     <li><a href="#">HAKKIMIZDA</a></li>
                 </ul>
@@ -71,17 +87,17 @@
     <!-- owl-carousel -->
 
     <!-- Tab links -->
-    <div class="fimler">
+    <div class="filmler">
         <div class="tab">
-            <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'vizyondakiler')">VİZYONDAKİLER</button>
-            <button class="tablinks" onclick="openCity(event, 'gelecekprogram')">GELECEK PROGRAM</button>
+            <button class="tablinks" id="defaultOpen" onclick="sections(event, 'vizyondakiler')">VİZYONDAKİLER</button>
+            <button class="tablinks" onclick="sections(event, 'gelecekprogram')">GELECEK PROGRAM</button>
         </div>
 
         <!-- Filter Bar -->
         <div class="filter-bar">
             <div class="dropdown1">
                 <div class="sube">
-                    <button class="dropbtn">Şubelerimiz</button><i class="fas fa-sort-down"></i>
+                    <button class="dropbtn1">Şubelerimiz</button><i class="fas fa-sort-down"></i>
                 </div>
                 <div class="dropdown-content">
                     <a href="#about">Cinens Sinemaları Akhisar</a>
@@ -97,95 +113,244 @@
                     <a href="#base">Cinens Sinemaları Adapazarı Cadde 54</a>
                 </div>
             </div>
+
+            <div class="dropdown2">
+                <div class="dil">
+                    <button class="dropbtn2">Dil</button><i class="fas fa-angle-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#about">Dil</a>
+                    <a href="#base">Türkçe</a>
+                    <a href="#base">İngilizce</a>
+                </div>
+            </div>
+
+            <div class="buton">
+                <a href="#" class="filterbtn">Filtrele</a>
+            </div>
             <!-- Filter Bar -->
 
             <!-- Tab content -->
             <div class="bolumler">
                 <div id="vizyondakiler" class="tabcontent">
                     <div class="card">
-                        <div class="card-header">The Matrix Resurrections</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/matrix.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">The Matrix Resurrections</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/matrix.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Aksiyon</div>
+                                <div class="category">Bilim Kurgu</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Örümcek-Adam: Eve Dönüş Yok</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/spider-man.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Örümcek-Adam: Eve Dönüş Yok</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/spider-man.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Aksiyon</div>
+                                <div class="category">Macera</div>
+                                <div class="category">Bilim Kurgu</div>
+
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Dayı: Bir Adamın Hikayesi</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/dayi.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Dayı: Bir Adamın Hikayesi</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/dayi.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Dram</div>
+                                <div class="category">Macera</div>
+                                <div class="category">Aşk</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Clifford Büyük Kırmızı Köpek</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/clifford.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Clifford Büyük Kırmızı Köpek</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/clifford.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Animasyon</div>
+                                <div class="category">Fantastik</div>
+                                <div class="category">Aile</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Aykut Enişte 2</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/aykut-eniste-2.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Aykut Enişte 2</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/aykut-eniste-2.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Komedi</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Lain</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/lain.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Lain</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/lain.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Korku</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Bayram Şekeri</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/bayram-şekeri.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Bayram Şekeri</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/bayram-şekeri.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Dram</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Evdekiler</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/evdekiler.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Evdekiler</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/evdekiler.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Gerilim</div>
+                                <div class="category">Korku</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
                     <div class="card">
-                        <div class="card-header">İntikam Vakti</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/intikam-vakti.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header">Resident Evil</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/resident-evil.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">Venom: Zehirli Öfke 2</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/venom-zehirli-ofke.png" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header">Eternals</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/eternals.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">Titane</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/titane.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">İntikam Vakti</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/intikam-vakti.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Aksiyon</div>
+                                <div class="category">Gerilim</div>
+                                <div class="category">Suç</div>
+                                <div class="category">IMAX</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="card">
-                        <div class="card-header">Kuklalı Köşk 2: Orman Kaşifi</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/kuklalı-kosk.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Resident Evil</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/resident-evil.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Aksiyon</div>
+                                <div class="category">Korku</div>
+                                <div class="category">Gizem</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
                     <div class="card">
-                        <div class="card-header">Enkanto: Sihirli Dünya</div>
-                        <div class="card-main"><img class="image" src="assets/img/filmler/enkanto-sihirli-dunya.jpg" alt=""></div>
-                        <div class="card-footer">SEANSLAR</div>
+                        <a href="#">
+                            <div class="card-header">Venom: Zehirli Öfke 2</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/venom-zehirli-ofke.png" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Aksiyon</div>
+                                <div class="category">Bilim Kurgu</div>
+                                <div class="category">Macera</div>
+                                <div class="category">Gerilim</div>
+                                <div class="category">Fantastik</div>
+                                <div class="category">IMAX</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="#">
+                            <div class="card-header">Eternals</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/eternals.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Aksiyon</div>
+                                <div class="category">Dram</div>
+                                <div class="category">Macera</div>
+                                <div class="category">3 Boyutlu</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="card-header">Titane</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/titane.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Dram</div>
+                                <div class="category">Gerilim</div>
+                                <div class="category">Bilim Kurgu</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="#">
+                            <div class="card-header">Kuklalı Köşk 2: Orman Kaşifi</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/kuklalı-kosk.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Komedi</div>
+                                <div class="category">Animasyon</div>
+                                <div class="category">Aile</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="card-header">Enkanto: Sihirli Dünya</div>
+                            <div class="card-main"><img class="image" src="assets/img/filmler/enkanto-sihirli-dunya.jpg" alt=""></div>
+                            <div class="card-footer">
+                                <div class="category">Animasyon</div>
+                                <div class="category">Macera</div>
+                                <div class="category">Komedi</div>
+                            </div>
+                            <div class="card-footer2">
+                                <div class="sessions"> SEANSLAR</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
@@ -195,22 +360,96 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Tab links -->
+    <!-- Tab links -->
+
+    <!-- Our Campaigns -->
+
+    <div class="acildik">
+        <div class="campaign">
+            <h1>KAMPANYALARIMIZ</h1>
+        </div>
+        <div class="box2">
+            <div class="owl-carousel main-slider2">
+                <div class="banner-img"> <img src="assets/img/banner/acildik-haydisinemaya.jpg" alt=""> </div>
+                <div class="banner-img"> <img src="assets/img/banner/acildik-haydisinemaya.jpg" alt=""> </div>
+                <div class="banner-img"> <img src="assets/img/banner/acildik-haydisinemaya.jpg" alt=""> </div>
+            </div>
+        </div>
+        <div class="tumkampanyalar">
+            <a href="#">Tüm Kampanyaları Listele</a>
+        </div>
+        <div class="instagram">
+            <div class="textbtn">
+                <a href="">
+                    <img src="assets/img/instagramlogo.png" alt="">
+                    <h1>@cinenssinemalari</h1>
+                </a>
+            </div>
+        </div>
+        <div class="maps">
+            <iframe class="cinens" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3117.4318839128605!2d27.397551715610184!3d38.61594447108962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b99cf28ce0fd61%3A0xccdb1da0758ab844!2sCinens%20Sinemalar%C4%B1%20Manisa!5e0!3m2!1str!2snl!4v1639577070990!5m2!1str!2snl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Our Campaigns -->
 
 
-        <footer>
+    <footer>
+        <div class="footer-area">
+            <div class="contact-us">
+                <input class="email" type="email" class="email" placeholder="E Posta Adresi">
+                <button class="gonder" type="button" class="gonderbtn">Gönder</button>
+            </div>
+            <div class="text">
+                <p class="metin">Yeniliklerden hemen haverdar olmak ve efsaneleri yakından takip etmek</p>
+                <p class="metin2">için lütfen e-posta adresini kayıt ediniz.</p>
+            </div>
+            <div class="follow-us">
+                <span>Bizi Takip Edin</span>
+            </div>
+            <ul class="icons">
+                <li><a href="https://www.facebook.com/CinensSinema/"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/cinenssinema"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/cinenssinemalari/?hl=tr"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCAxrFExJQBNA-3OZaY_vLgw/featured"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#">SİNEMALAR</a></li>
+                <li><a href="#">HAKKIMIZDA</a></li>
+                <li><a href="#">DOLBY ATMOS</a></li>
+                <li><a href="#">KAMPANYALARIMIZ</a></li>
+                <li><a href="#">İLETİŞİM</a></li>
+                <li><a href="#">KARİYER</a></li>
+            </ul>
+            <ul class="kvkk">
+                <li><a href="#">KVKK Aydınlatma Bildirimi</a></li>
+                <li><a href="#">KVKK Başvuru Formu</a></li>
+                <li><a href="#">Gizlilik</a></li>
+            </ul>
 
-        </footer>
+        </div>
+        <div class="copyright">
+            <span>© Copyright 2017 <b style="color: #EDDA3B;">Cinens</b> Sinemaları</span>
+        </div>
+        <div class="text-center">
+            <li><img src="assets/img/footer/footer-badges.png" alt=""></li>
+        </div>
+        <div class="ticket">
+            <li><img src="assets/img/footer/biletinial.png" alt=""></li>
+        </div>
+    </footer>
 
-        <script src="assets/js/jquery-3.6.0.min.js "></script>
-        <script src="assets/js/owl.carousel.min.js "></script>
-        <script src="assets/js/owl.js "></script>
-        <script src="assets/js/tabs.js"></script>
-        <script>
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
+    <script src="assets/js/jquery-3.6.0.min.js "></script>
+    <script src="assets/js/owl.carousel.min.js "></script>
+    <script src="assets/js/owl.js "></script>
+    <script src="assets/js/tabs.js"></script>
+
+    <script>
+        document.getElementById("defaultOpen").click();
+    </script>
 
 
 

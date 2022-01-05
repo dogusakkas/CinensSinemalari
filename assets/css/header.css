@@ -7,6 +7,9 @@
 header {
     background-color: black;
     height: 96px;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -33,7 +36,7 @@ header {
 }
 
 .navbar a:hover {
-    color: rgb(237, 218, 59);
+    color: #EDDA3B;
     transition: 0.3s;
 }
 
@@ -45,11 +48,6 @@ header {
 .left i {
     color: white;
     margin-left: 10px;
-}
-
-.sinemalarbuton a:hover {
-    color: rgb(237, 218, 59) !important;
-    transition: 0.3s !important;
 }
 
 .navbar .right img {
