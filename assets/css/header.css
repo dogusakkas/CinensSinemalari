@@ -4,10 +4,14 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: black;
     height: 96px;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     z-index: 1000;
 }
@@ -64,3 +68,49 @@ header {
 .right {
     display: flex;
 }
+
+
+/* myFunction */
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button:hover {
+    color: #EDDA3B;
+}
+
+.dropdown-content {
+    top: 50px;
+    display: none;
+    position: absolute;
+    min-width: 350px;
+    z-index: 10000;
+    background-color: white;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    color: black !important;
+}
+
+.show {
+    display: block;
+}
+
+
+/* myFunction */

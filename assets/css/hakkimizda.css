@@ -1,0 +1,24 @@
+.cinens img {
+    height: 500px;
+    width: 100%;
+}
+
+.about-us .card {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.about-us .card p {
+    margin-top: 20px;
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 70px;
+}
+
+.about-us .card h1 {
+    color: #212529;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}

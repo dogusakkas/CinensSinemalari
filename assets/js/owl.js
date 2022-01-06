@@ -1,3 +1,5 @@
+/* 1. carousel */
+
 $(document).ready(function() {
     $('.main-slider').owlCarousel({
         loop: true,
@@ -11,6 +13,10 @@ $(document).ready(function() {
     })
 });
 
+/* 1. carousel */
+
+/* 2. carousel */
+
 $(document).ready(function() {
     $('.main-slider2').owlCarousel({
         loop: true,
@@ -20,3 +26,5 @@ $(document).ready(function() {
         nav: false,
     })
 });
+
+/* 2. carousel */
