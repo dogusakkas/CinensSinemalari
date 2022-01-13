@@ -406,21 +406,94 @@
 
 .modal form {
     position: relative;
-    min-width: 30%;
+    min-width: 40%;
+    min-height: 60%;
     display: flex;
     flex-direction: column;
     padding: 2rem;
     background-color: white;
 }
 
+.inputs {
+    position: relative;
+    display: grid;
+}
+
+.modal input,
+textarea:focus {
+    outline: none;
+}
+
+.modal form h1 {
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #212529;
+}
+
+.modal form .adsoyad {
+    position: relative;
+}
+
+.modal form .adsoyad input {
+    position: relative;
+    padding-right: 10px !important;
+}
+
+.modal form .adsoyad p {
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.modal form .eposta {
+    position: relative;
+    bottom: 55px;
+    left: 390px;
+}
+
+.modal form .telefon {
+    position: relative;
+    bottom: 10px;
+}
+
+.modal form .konu {
+    position: relative;
+    bottom: 65px;
+    left: 390px;
+}
+
+.modal form textarea {
+    position: relative;
+    width: 760px;
+    border-style: none;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    resize: vertical;
+}
+
 .modal form input {
     margin: 0.5rem 0;
     padding: 0.5rem;
     font-size: 1.2rem;
+    width: 350px;
+    border-style: none;
+    border-bottom: 1px solid black;
 }
 
 #form-buton {
-    background-color: violet;
+    position: relative;
+    background-color: black;
+    color: white;
+    left: 400px;
+    top: 100px;
+    height: 75px;
+    border-radius: 5px;
+    width: 350px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 #modal-close {
@@ -434,3 +507,23 @@
 
 
 /* Contact Us Button Pop-up */
+
+
+/* Up Button */
+
+#yukari-cik {
+    height: 55px;
+    width: 55px;
+    right: 50px;
+    bottom: 40px;
+    position: fixed;
+    text-indent: -9999px;
+    z-index: 9999;
+    display: none;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Up Button */

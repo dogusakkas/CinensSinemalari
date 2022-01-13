@@ -35,3 +35,19 @@ modalKapat.addEventListener("click", () => {
 });
 
 /* POP-UP */
+
+/* Up Button */
+jQuery(document).ready(function($) {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() < 850) {
+            $('#yukari-cik').fadeOut();
+        } else {
+            $('#yukari-cik').fadeIn();
+        }
+    });
+    $('#yukari-cik').on('click', function() {
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+        return false;
+    });
+});
+/* Up Button */
