@@ -1,5 +1,5 @@
 footer {
-    height: 700px;
+    height: 550px;
     background-color: black;
 }
 
@@ -20,18 +20,22 @@ footer .email {
     float: left;
     width: 400px;
     background: #f1f1f1;
-    height: 55px;
+    height: 40px;
+}
+
+footer input:focus {
+    outline-width: 0;
 }
 
 footer .gonder {
     float: left;
     width: 10%;
-    height: 78px;
+    height: 63px;
     padding: 10px;
     background: #EDDA3B;
     color: black;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
     border-left: none;
     cursor: pointer;
 }
@@ -46,7 +50,7 @@ footer .text {
     position: absolute;
     margin-top: 90px;
     margin-left: 40px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 footer .text .metin {
@@ -61,9 +65,9 @@ footer .text .metin2 {
 footer .follow-us {
     position: absolute;
     color: #8F8F8F;
-    margin-top: 185px;
-    font-size: 18px;
-    margin-left: 300px;
+    margin-top: 150px;
+    font-size: 15px;
+    margin-left: 250px;
 }
 
 footer .icons {
@@ -71,13 +75,13 @@ footer .icons {
     float: left;
     display: flex;
     list-style: none;
-    margin-left: 235px;
-    margin-top: 230px;
+    margin-left: 190px;
+    margin-top: 180px;
 }
 
 footer .icons li a {
     color: #8F8F8F;
-    font-size: 26px;
+    font-size: 18px;
     margin-left: 25px;
 }
 
@@ -87,7 +91,7 @@ footer .icons li a:hover {
 
 footer .menu {
     position: absolute;
-    margin-top: 290px;
+    margin-top: 240px;
     display: flex;
     list-style: none;
 }
@@ -96,7 +100,7 @@ footer .menu li a {
     color: #8F8F8F;
     margin-left: 22px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 footer .menu li a:hover {
@@ -107,15 +111,15 @@ footer .kvkk {
     position: absolute;
     display: flex;
     list-style: none;
-    margin-top: 350px;
-    margin-left: 150px;
+    margin-top: 290px;
+    margin-left: 120px;
 }
 
 footer .kvkk li a {
     color: #8F8F8F;
     text-decoration: none;
     margin-left: 22px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 footer .kvkk li a:hover {
@@ -124,7 +128,7 @@ footer .kvkk li a:hover {
 
 footer .copyright {
     position: absolute;
-    margin-top: 560px;
+    margin-top: 475px;
     left: 23%;
     color: #8F8F8F;
 }
@@ -132,7 +136,7 @@ footer .copyright {
 footer .text-center {
     position: absolute;
     left: 42%;
-    margin-top: 550px;
+    margin-top: 475px;
 }
 
 footer img {
@@ -142,5 +146,5 @@ footer img {
 footer .ticket {
     position: absolute;
     left: 70%;
-    margin-top: 550px;
+    margin-top: 475px;
 }

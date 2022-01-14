@@ -35,8 +35,8 @@ header {
     margin: 40px;
     text-decoration: none;
     color: white;
-    font-weight: 500;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .navbar a:hover {
@@ -45,18 +45,18 @@ header {
 }
 
 .navbar .logo img {
-    height: 62px;
+    height: 55px;
     padding-top: 15px;
 }
 
-.left i {
+.navbar .left i {
     color: white;
     margin-left: 10px;
 }
 
 .navbar .right img {
     height: 15px;
-    border: 2px solid white;
+    border: 1px solid white;
     padding: 3px;
     border-radius: 5px;
 }
@@ -75,8 +75,8 @@ header {
 .dropbtn {
     background-color: black;
     color: white;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 15px;
     border: none;
     cursor: pointer;
 }
@@ -84,6 +84,11 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
+}
+
+.dropdown button {
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .dropdown button:hover {

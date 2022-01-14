@@ -39,7 +39,7 @@ modalKapat.addEventListener("click", () => {
 /* Up Button */
 jQuery(document).ready(function($) {
     $(window).scroll(function() {
-        if ($(this).scrollTop() < 850) {
+        if ($(this).scrollTop() < 200) {
             $('#yukari-cik').fadeOut();
         } else {
             $('#yukari-cik').fadeIn();
