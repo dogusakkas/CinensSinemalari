@@ -1,0 +1,34 @@
+.concact .maps iframe {
+    margin-top: 96px;
+}
+
+.iletisim .container {
+    display: flex;
+}
+
+.iletisim .text {
+    margin: 40px 0px;
+    margin-left: 600px;
+}
+
+.iletisim .text .logo img {
+    height: 50px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 1px 3px 1px 2px rgb(214, 206, 206);
+    border-radius: 50%;
+}
+
+.iletisim .text .logo {
+    float: left;
+    margin-right: 50px;
+}
+
+.iletisim .text .address {
+    float: left;
+}
+
+.iletisim .line {
+    max-width: 100%;
+    border-bottom: 10px solid gold;
+}

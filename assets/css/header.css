@@ -83,12 +83,6 @@ header {
 
 .dropdown {
     position: relative;
-    display: inline-block;
-}
-
-.dropdown button {
-    font-size: 15px;
-    font-weight: 400;
 }
 
 .dropdown button:hover {

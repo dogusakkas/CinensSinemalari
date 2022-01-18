@@ -1,6 +1,7 @@
 .cinens img {
     height: 500px;
     width: 100%;
+    margin-top: 96px;
 }
 
 .about-us .card {
@@ -13,8 +14,10 @@
     margin-top: 20px;
     display: block;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 16px;
     margin-bottom: 70px;
+    font-family: sans-serif;
+    line-height: 25px;
 }
 
 .about-us .card h1 {

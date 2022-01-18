@@ -1,0 +1,19 @@
+.kampanyalarimiz .kampanya-image img {
+    margin-top: 96px;
+    width: 100%;
+}
+
+.kampanyalarimiz .contact {
+    max-width: 40%;
+    text-align: center;
+    margin: 50px 0px;
+    margin-left: 250px;
+    margin-bottom: 500px;
+}
+
+.kampanyalarimiz .contact .title h1 {
+    color: #212529;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
