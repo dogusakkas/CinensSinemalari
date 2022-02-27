@@ -8,11 +8,11 @@
 
 .iletisim .text {
     margin: 40px 0px;
-    margin-left: 600px;
+    margin-left: 590px;
 }
 
 .iletisim .text .logo img {
-    height: 50px;
+    height: 40px;
     padding: 15px;
     background-color: white;
     box-shadow: 1px 3px 1px 2px rgb(214, 206, 206);
@@ -28,7 +28,82 @@
     float: left;
 }
 
-.iletisim .line {
-    max-width: 100%;
-    border-bottom: 10px solid gold;
+.iletisim .text .address h1 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.iletisim .text .address p {
+    padding: 10px 0px;
+}
+
+.line {
+    position: relative;
+    left: 25%;
+    max-width: 40%;
+    border-bottom: 0.1px solid rgb(179, 167, 167);
+}
+
+.container2 .contact-us .title {
+    margin-top: 50px;
+    position: relative;
+    left: 46%;
+}
+
+.container2 .contact-us .title h1 {
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.container2 .row {
+    position: relative;
+    left: 30%;
+    padding: 20px;
+}
+
+.container2 .row input {
+    height: 40px;
+    width: 350px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-style: none;
+    border-bottom: 1px solid black;
+    font-size: 19px;
+    padding: 0px 10px;
+}
+
+.container2 .row-cols-1 {
+    padding-bottom: 30px;
+}
+
+.container2 .row-cols-3 {
+    padding: 60px 0px;
+}
+
+.container2 .row-cols-3 textarea {
+    max-width: 41%;
+    border-style: none;
+    border-bottom: 1px solid black;
+    font-size: 19px;
+    padding: 0px 10px;
+}
+
+.container2 .row input:focus {
+    outline: none;
+}
+
+.container2 .row-cols-4 {
+    position: relative;
+    left: 20%;
+}
+
+.container2 .row-cols-4 button {
+    height: 75px;
+    width: 420px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
 }
