@@ -1,4 +1,4 @@
-.concact .maps iframe {
+.iletisim .maps iframe {
     margin-top: 96px;
 }
 
@@ -39,9 +39,9 @@
 
 .line {
     position: relative;
-    left: 25%;
-    max-width: 40%;
-    border-bottom: 0.1px solid rgb(179, 167, 167);
+    left: 20%;
+    max-width: 60%;
+    border-bottom: 0.1px solid rgb(221, 210, 210);
 }
 
 .container2 .contact-us .title {

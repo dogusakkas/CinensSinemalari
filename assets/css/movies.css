@@ -1,0 +1,81 @@
+.movies .explanation {
+    display: flex;
+    background-color: #F0F0F0;
+}
+
+.movies .explanation .image {
+    position: relative;
+    left: 23%;
+}
+
+.movies .explanation .image img {
+    width: 310px;
+    height: 400px;
+    margin-top: 115px;
+}
+
+.movies .explanation .content {
+    position: relative;
+    left: 50%;
+}
+
+.movies .explanation .content .writing {
+    position: relative;
+    top: 40%;
+    right: 100%;
+}
+
+.movies .explanation .row-cols-1,
+.row-cols-2 {
+    display: flex;
+}
+
+.movies .explanation .row-cols-1 p {
+    margin-right: 140px;
+}
+
+.movies .explanation .cast {
+    max-width: 150px;
+}
+
+.movies .explanation .manager {
+    max-width: 150px;
+    margin-left: 53px;
+}
+
+.movies .explanation .content .youtube {
+    position: relative;
+    left: 25%;
+    top: 20%;
+    bottom: 50%;
+    width: 75px;
+    height: 75px;
+    background-color: #E9E9E9;
+    border-radius: 50%;
+}
+
+.movies .explanation .content .youtube img {
+    width: 40px;
+    margin: 20px;
+}
+
+.movies .explanation .content .youtube:hover {
+    background-color: red;
+    transition: 0.7;
+}
+
+.movies .explanation .content .trailer {
+    display: inline;
+    position: relative;
+    left: 115px;
+    top: 150px;
+}
+
+.movies .explanation .content a {
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+}
+
+.movies .explanation .content .trailer:hover {
+    border-bottom: 1px solid black;
+}
