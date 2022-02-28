@@ -21,8 +21,19 @@
 
 .movies .explanation .content .writing {
     position: relative;
-    top: 40%;
+    top: 32%;
     right: 100%;
+}
+
+.movies .explanation .content .writing h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.movies .explanation .content .writing p {
+    margin-top: 10px;
+    line-height: 1.5;
 }
 
 .movies .explanation .row-cols-1,
@@ -32,6 +43,11 @@
 
 .movies .explanation .row-cols-1 p {
     margin-right: 140px;
+    font-weight: 460;
+}
+
+.movies .explanation .row-cols-2 p {
+    font-weight: 280;
 }
 
 .movies .explanation .cast {
@@ -45,9 +61,6 @@
 
 .movies .explanation .content .youtube {
     position: relative;
-    left: 25%;
-    top: 20%;
-    bottom: 50%;
     width: 75px;
     height: 75px;
     background-color: #E9E9E9;
@@ -64,11 +77,15 @@
     transition: 0.7;
 }
 
+.movies .explanation .content .playbtn {
+    display: inline-block;
+}
+
 .movies .explanation .content .trailer {
     display: inline;
     position: relative;
-    left: 115px;
-    top: 150px;
+    top: 20px;
+    left: 10px;
 }
 
 .movies .explanation .content a {
@@ -79,3 +96,84 @@
 .movies .explanation .content .trailer:hover {
     border-bottom: 1px solid black;
 }
+
+
+/* Film Details */
+
+
+/* Filter Bar */
+
+.filterdropdown {
+    width: 100%;
+    height: 70px;
+    background-color: #EDDA3B;
+    display: flex;
+}
+
+.dropbtn2 {
+    background-color: white;
+    width: 260px;
+    height: 37px;
+    margin-top: 10px;
+    color: gray;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgb(202, 193, 193);
+}
+
+.dropbtn2 i {
+    margin-left: 150px;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    left: 22%;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+    border: 1px solid rgb(170, 159, 159);
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 4px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #1E90FF;
+}
+
+.show {
+    display: block;
+}
+
+.filterdropdown .btn {
+    width: 160px;
+    height: 40px;
+    background-color: #23272B;
+    border-radius: 5px;
+    left: 44%;
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+}
+
+.filterdropdown .btn a {
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+}
+
+
+/* Filter Bar */
