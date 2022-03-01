@@ -165,12 +165,67 @@
                     <a href="#">Cinens Sinemaları Adapazarı Cadde 54</a>
                 </div>
             </div>
-            <div class="btn">
-                <a href="#" class="filterbtn">Filtrele</a>
-            </div>
+            <a href="#" class="filterbtn">
+                <div href="#" class="btn">Filtrele</div>
+            </a>
         </div>
     </div>
     <!-- Movies -->
+
+    <!-- Sessions -->
+
+    <div class="sessions">
+        <div class="sections">
+            <div class="title">
+                <h1>Seanslar</h1>
+            </div>
+            <div class="dates">
+                <div class="tab">
+                    <button class="tablinks" id="defaultOpen" onclick="sessions(event, 'Cuma')"><p>04 Mart Cum</p> </button>
+                    <button class="tablinks" onclick="sessions(event, 'Cumartesi')"><p>05 Mart Cmt</p></button>
+                    <button class="tablinks" onclick="sessions(event, 'Pazar')"><p>06 Mart Paz</p></button>
+                    <button class="tablinks" onclick="sessions(event, 'Pazartesi')"><p>07 Mart Pzt</p></button>
+                    <button class="tablinks" onclick="sessions(event, 'Salı')"><p>08 Mart Sal</p></button>
+                    <button class="tablinks" onclick="sessions(event, 'Çarşamba')"><p>09 Mart Çar</p></button>
+                    <button class="tablinks" onclick="sessions(event, 'Perşembe')"><p>10 Mart Per</p></button>
+                </div>
+
+                <div id="Cuma" class="tabcontent">
+                    <h3>04 Mart Cum</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+
+                <div id="Cumartesi" class="tabcontent">
+                    <h3>05 Mart Cmt</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+
+                <div id="Pazar" class="tabcontent">
+                    <h3>06 Mart Paz</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+                <div id="Pazartesi" class="tabcontent">
+                    <h3>07 Mart Pzt</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+                <div id="Salı" class="tabcontent">
+                    <h3>08 Mart Sal</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+                <div id="Çarşamba" class="tabcontent">
+                    <h3>09 Mart Çar</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+                <div id="Perşembe" class="tabcontent">
+                    <h3>10 Mart Per</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+            <div class="test"></div>
+        </div>
+    </div>
+
+    <!-- Sessions -->
 
 
     <footer>
@@ -219,7 +274,11 @@
     </footer>
 
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/test.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script>
+        document.getElementById("defaultOpen").click();
+    </script>
+
 
 </body>
 

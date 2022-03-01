@@ -158,7 +158,7 @@
     display: block;
 }
 
-.filterdropdown .btn {
+.filterdropdown .filterbtn {
     width: 160px;
     height: 40px;
     background-color: #23272B;
@@ -167,13 +167,75 @@
     text-align: center;
     margin-top: 15px;
     position: relative;
+    cursor: pointer;
 }
 
-.filterdropdown .btn a {
+.filterdropdown .filterbtn .btn {
     text-decoration: none;
     color: white;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 
 /* Filter Bar */
+
+
+/* Sessions */
+
+.sessions {
+    max-width: 58%;
+    position: relative;
+    left: 21%;
+}
+
+.sessions .sections .title h1 {
+    position: relative;
+    top: 40px;
+    left: 25px;
+    font-weight: 500;
+    font-size: 23px;
+    color: #212529;
+}
+
+.dates {
+    margin-top: 60px;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab button.active p {
+    color: #EDDA3B;
+}
+
+.tab button:active {
+    border: 1px solid #ccc;
+    border-bottom: none !important;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 157px;
+    height: 40px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.test {
+    height: 100px;
+}
+
+
+/* Sessions */
