@@ -32,11 +32,10 @@ header {
 }
 
 .navbar a {
-    margin: 40px;
     text-decoration: none;
     color: white;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 390;
 }
 
 .navbar a:hover {
@@ -54,51 +53,64 @@ header {
     margin-left: 10px;
 }
 
-.navbar .right img {
+.navbar .right .bayrak img {
     height: 15px;
     border: 1px solid white;
     padding: 3px;
     border-radius: 5px;
 }
 
-.right .bayrak {
+.navbar .right .bayrak {
     margin-top: 30px;
 }
 
-.right {
+.navbar .right {
     display: flex;
+    margin-left: 60px;
+}
+
+.navbar .left {
+    margin-right: 50px;
+}
+
+.navbar .left a {
+    margin: 0px 30px;
+}
+
+.navbar .right a {
+    margin: 0px 20px;
 }
 
 
 /* myFunction */
 
-.dropbtn {
+.navbar .dropbtn {
     background-color: black;
     color: white;
-    font-weight: 400;
+    font-weight: 390;
     font-size: 15px;
     border: none;
     cursor: pointer;
 }
 
-.dropdown {
+.navbar .dropdown {
     position: relative;
 }
 
-.dropdown button:hover {
+.navbar .dropdown button:hover {
     color: #EDDA3B;
 }
 
-.dropdown-content {
-    top: 50px;
+.navbar .dropdown-content {
+    top: 30px;
     display: none;
     position: absolute;
     min-width: 350px;
-    z-index: 10000;
+    z-index: 100;
     background-color: white;
 }
 
-.dropdown-content a {
+.navbar .dropdown-content a {
     display: block;
     color: black;
 }
@@ -107,7 +119,7 @@ header {
     color: black !important;
 }
 
-.show {
+.navbar .show {
     display: block;
 }
 
