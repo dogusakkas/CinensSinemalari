@@ -88,13 +88,6 @@ textarea:focus {
     padding-right: 10px !important;
 }
 
-.modal form .adsoyad p {
-    background-color: blue;
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-}
-
 .modal form .eposta {
     position: relative;
     bottom: 55px;
@@ -147,10 +140,10 @@ textarea:focus {
 
 #modal-close {
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 0px;
-    background-color: tomato;
-    padding: 0.5rem;
+    height: 30px;
+    font-size: 30px;
     cursor: pointer;
 }
 

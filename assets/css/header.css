@@ -105,14 +105,16 @@ header {
     top: 30px;
     display: none;
     position: absolute;
-    min-width: 350px;
+    min-width: 330px;
     z-index: 100;
     background-color: white;
+    padding-bottom: 20px;
 }
 
 .navbar .dropdown-content a {
     display: block;
     color: black;
+    margin-top: 20px;
 }
 
 .dropdown-content a:hover {
