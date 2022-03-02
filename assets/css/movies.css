@@ -104,15 +104,29 @@
     opacity: 0;
 }
 
+.trailer2 p {
+    color: white;
+    margin-bottom: 500px;
+    font-size: 32px;
+    position: relative;
+    left: 150px;
+}
+
 .trailer2.active {
     visibility: visible;
     opacity: 1;
 }
 
-.trailer2 video {
+.trailer2 iframe {
     position: relative;
     max-width: 900px;
     outline: none;
+}
+
+@media (max-width:991px) {
+    .trailer2 video {
+        max-width: 90%;
+    }
 }
 
 .close {
