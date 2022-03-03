@@ -50,7 +50,10 @@ header {
 
 .navbar .left i {
     color: white;
-    margin-left: 10px;
+    position: relative;
+    left: 7px;
+    bottom: 3px;
+    font-size: 12px;
 }
 
 .navbar .right .bayrak img {
