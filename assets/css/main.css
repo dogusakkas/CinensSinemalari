@@ -1,273 +1,334 @@
-@media(max-width:1921px) {
-    /* banner */
-    .slider .item img {
-        max-height: 650px;
-        width: 100%;
-        margin-top: 96px;
-    }
-    .slider {
-        position: relative;
-    }
-    /* banner */
-    /* Tab */
-    .filmler .tab {
-        overflow: hidden;
-        position: relative;
-        left: 18%;
-        top: 10px;
-    }
-    .filmler .bolumler {
-        overflow: hidden;
-        margin-left: 20%;
-        max-width: 75%;
-    }
-    .filmler .tab button {
-        font-size: 17px;
-        font-weight: 600;
-        background-color: white;
-        color: gray;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-    }
-    .tab button.active {
-        color: black;
-    }
-    /* Tab */
-    /* Filter Bar */
-    .filter-bar {
-        margin-top: 20px;
-        height: 70px;
-        background-color: #EDDA3B;
-    }
-    .dropbtn1 {
-        background-color: white;
-        color: black;
-        height: 45px;
-        width: 270px;
-        font-size: 17px;
-        border: none;
-        cursor: pointer;
-        text-align: start;
-        padding: 0px 10px;
-        border-radius: 4px;
-    }
-    .dropbtn2 {
-        background-color: white;
-        color: black;
-        height: 45px;
-        width: 180px;
-        font-size: 17px;
-        border: 1px solid #ced4da;
-        cursor: pointer;
-        text-align: start;
-        padding: 0px 10px;
-        border-radius: 4px;
-    }
-    .sube i {
-        position: relative;
-        right: 8%;
-        font-size: 25px;
-    }
-    .dil i {
-        position: relative;
-        right: 10%;
-        font-size: 22px;
-        color: gray;
-    }
-    .dropdown1 {
-        position: relative;
-        display: inline-block;
-        top: 16%;
-        left: 18.8%;
-    }
-    .dropdown2 {
-        position: relative;
-        display: inline-block;
-        top: 16%;
-        left: 20%;
-    }
-    .dropdown1 .dropdown-content1 {
-        display: none;
-        position: absolute;
-        background-color: white;
-        width: 340px;
-    }
-    .dropdown2 .dropdown-content1 {
-        display: none;
-        position: absolute;
-        background-color: white;
-        width: 240px;
-    }
-    .dropdown-content1 a {
-        color: black;
-        font-size: 19px;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    .dropdown1 .dropdown-content1 a:hover {
-        background-color: #EDDA3B
-    }
-    .dropdown2 .dropdown-content1 a:hover {
-        background-color: #1e90ff;
-    }
-    .dropdown1:hover .dropdown-content1 {
-        display: block;
-    }
-    .dropdown2:hover .dropdown-content1 {
-        display: block;
-    }
-    .filter-bar .buton .filterbtn {
-        background-color: black;
-        border-radius: 4px;
-        position: relative;
-        left: 47%;
-        bottom: 21px;
-        text-align: center;
-        padding: 12px 70px;
-        text-decoration: none;
-        color: white;
-        font-weight: 500;
-        font-size: 16px;
-    }
-    /* Filter Bar */
-    /* Contents */
-    .card {
-        width: 260px;
-        height: 590px;
-        border-radius: 4px;
-        overflow: hidden;
-        margin: 5px;
-        float: left;
-        margin-top: 55px;
-        margin-right: 2%;
-    }
-    .card a {
-        text-decoration: none;
-        color: black !important;
-        font-weight: bolder;
-    }
-    .card:hover {
-        background-color: #EDDA3B;
-        box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 45px;
-    }
-    .card:hover img {
-        transform: scale(1.1);
-        transition: 0.4s;
-    }
-    .card-header {
-        margin-top: 40px;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .card-main {
-        margin-top: 50px;
-        padding: 0px 0px;
-        overflow: hidden;
-    }
-    .bolumler .image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .card .genel-izleyici {
-        text-align: center;
-    }
-    .card .genel-izleyici img {
-        width: 25px;
-        margin-top: 5px;
-        margin-left: 5px;
-    }
-    .card-footer {
-        padding: 5px;
-        font-size: 13px;
-        font-weight: 500;
-        text-align: center;
-        background-color: white !important;
-    }
-    .card-footer2 {
-        margin-top: 15px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .card-footer .category {
-        padding: 6px;
-        margin-bottom: 3px;
-        background-color: #EDDA3B;
-        display: inline-block;
-        color: white;
-        border-radius: 5px;
-    }
-    .card :hover .card-footer,
-    .genel-izleyici,
-    .card-main {
-        background-color: white !important;
-    }
-    /* Contents */
-    /* Our Campaigns */
-    .acildik .campaign {
-        margin-top: 40px;
-        position: relative;
-        left: 20%;
-        color: #212529;
-        font-size: 13px;
-        font-weight: bold;
-    }
-    .acildik .box2 {
-        margin-top: 50px;
-    }
-    .acildik .main-slider2 {
-        padding: 0px 20px;
-    }
-    .acildik .tumkampanyalar a {
-        text-decoration: none;
-        color: white;
-        position: relative;
-        left: 45%;
-        background-color: black;
-        padding: 10px 25px;
-        border-radius: 5px;
-        font-weight: 500;
-        font-size: 15px;
-        top: 10px;
-    }
-    .instagram .textbtn {
-        float: left;
-    }
-    .instagram {
-        display: block;
-        margin-top: 30px;
-    }
-    .instagram .textbtn img {
-        height: 40px;
-        width: 35px;
-    }
-    .instagram .textbtn a {
-        text-decoration: none;
-        color: #212529;
-        font-weight: 400;
-        font-size: 12px;
-        position: relative;
-        left: 190%;
-    }
-    .textbtn h1 {
-        position: relative;
-        display: inline-block;
-        left: 20px;
-        bottom: 15px;
-    }
-    .maps {
-        display: block;
-        margin-top: 90px;
-    }
-    .maps .cinens {
-        width: 100%;
-    }
-    /* Our Campaigns */
+/* banner */
+
+.slider .item img {
+    max-height: 650px;
+    width: 100%;
+    margin-top: 96px;
 }
+
+.slider {
+    position: relative;
+}
+
+
+/* banner */
+
+
+/* Tab */
+
+.filmler .tab {
+    overflow: hidden;
+    position: relative;
+    left: 18%;
+    top: 10px;
+}
+
+.filmler .bolumler {
+    overflow: hidden;
+    margin-left: 20%;
+    max-width: 75%;
+}
+
+.filmler .tab button {
+    font-size: 17px;
+    font-weight: 600;
+    background-color: white;
+    color: gray;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button.active {
+    color: black;
+}
+
+
+/* Tab */
+
+
+/* Filter Bar */
+
+.filter-bar {
+    margin-top: 20px;
+    height: 70px;
+    background-color: #EDDA3B;
+}
+
+.dropbtn1 {
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 270px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    text-align: start;
+    padding: 0px 10px;
+    border-radius: 4px;
+}
+
+.dropbtn2 {
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 180px;
+    font-size: 17px;
+    border: 1px solid #ced4da;
+    cursor: pointer;
+    text-align: start;
+    padding: 0px 10px;
+    border-radius: 4px;
+}
+
+.sube i {
+    position: relative;
+    right: 8%;
+    font-size: 25px;
+}
+
+.dil i {
+    position: relative;
+    right: 10%;
+    font-size: 22px;
+    color: gray;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    top: 16%;
+    left: 18.8%;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    top: 16%;
+    left: 20%;
+}
+
+.dropdown1 .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+}
+
+.dropdown2 .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 240px;
+}
+
+.dropdown-content1 a {
+    color: black;
+    font-size: 19px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1 .dropdown-content1 a:hover {
+    background-color: #EDDA3B
+}
+
+.dropdown2 .dropdown-content1 a:hover {
+    background-color: #1e90ff;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content1 {
+    display: block;
+}
+
+.filter-bar .buton .filterbtn {
+    background-color: black;
+    border-radius: 4px;
+    position: relative;
+    left: 47%;
+    bottom: 21px;
+    text-align: center;
+    padding: 12px 70px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* Filter Bar */
+
+
+/* Contents */
+
+.card {
+    width: 260px;
+    height: 590px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px;
+    float: left;
+    margin-top: 55px;
+    margin-right: 2%;
+}
+
+.card a {
+    text-decoration: none;
+    color: black !important;
+    font-weight: bolder;
+}
+
+.card:hover {
+    background-color: #EDDA3B;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 45px;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.card-header {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-main {
+    margin-top: 50px;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+.bolumler .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .genel-izleyici {
+    text-align: center;
+}
+
+.card .genel-izleyici img {
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.card-footer {
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    background-color: white !important;
+}
+
+.card-footer2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-footer .category {
+    padding: 6px;
+    margin-bottom: 3px;
+    background-color: #EDDA3B;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+
+.card :hover .card-footer,
+.genel-izleyici,
+.card-main {
+    background-color: white !important;
+}
+
+
+/* Contents */
+
+
+/* Our Campaigns */
+
+.acildik .campaign {
+    margin-top: 40px;
+    position: relative;
+    left: 20%;
+    color: #212529;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.acildik .box2 {
+    margin-top: 50px;
+}
+
+.acildik .main-slider2 {
+    padding: 0px 20px;
+}
+
+.acildik .tumkampanyalar a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 45%;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    top: 10px;
+}
+
+.instagram .textbtn {
+    float: left;
+}
+
+.instagram {
+    display: block;
+    margin-top: 30px;
+}
+
+.instagram .textbtn img {
+    height: 40px;
+    width: 35px;
+}
+
+.instagram .textbtn a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    left: 190%;
+}
+
+.textbtn h1 {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    bottom: 15px;
+}
+
+.maps {
+    display: block;
+    margin-top: 90px;
+}
+
+.maps .cinens {
+    width: 100%;
+}
+
+
+/* Our Campaigns */
